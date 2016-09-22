@@ -7,7 +7,7 @@
 	#pager a:hover { color: #666; text-decoration: none; }
 	#pager a.disable {}
 	</style>';
-	require_once('Pager.class.php');
+	require_once('Pager.php');
 	//模拟数据
 	$total 	= 100;
 	$p 		= $_GET['p'] ? : 1;
